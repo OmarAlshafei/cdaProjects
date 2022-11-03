@@ -1,0 +1,38 @@
+Starting program:  > q1output.txt
+No executable file specified.
+Use the "file" or "exec-file" command.
+Undefined command: "3.2".  Try "help".
+Undefined command: ".".  Try "help".
+Undefined command: "q1".  Try "help".
+Starting program:  > 3.2 -4.1 0.5 -0.25
+No executable file specified.
+Use the "file" or "exec-file" command.
+Starting program:  > q1output
+No executable file specified.
+Use the "file" or "exec-file" command.
+Starting program:  > q1output.txt
+No executable file specified.
+Use the "file" or "exec-file" command.
+Undefined command: "gdb".  Try "help".
+Already logging to gdb.txt.
+"on" or "off" expected.
+"on" or "off" expected.
+Undefined command: "on".  Try "help".
+"on" or "off" expected.
+Starting program: /home/omar/cdaProjects/a.out > ./q1 3.2 -4.1 0.5 -0.25
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main (argc=5, argv=0x7fffffffe008) at q1.c:43
+43	   if ( argc != 5 ) {
+Continuing.
+
+Breakpoint 2, main (argc=5, argv=0x7fffffffe008) at q1.c:57
+57	   if ( a == 0.0 ) {
+Continuing.
+[Inferior 1 (process 7872) exited normally]
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Already logging to gdb.txt.
